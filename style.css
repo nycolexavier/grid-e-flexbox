@@ -65,7 +65,8 @@ header {
 grid1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 780px;
+    max-width: 800px;
+    padding: 10px;
     margin: 0 auto;
     grid-gap: 20px0;
 }
@@ -84,3 +85,16 @@ grid1 {
     display: block;
 }
 
+@media (max-width: 600px) {
+    .grid1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid > div:nth-child(n + 4) {
+        display: block;
+    }
+    .grid > div.anuncio {
+        grid-column: auto;
+        grid-row: auto;
+        order: -1;
+    }
+}
