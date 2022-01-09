@@ -74,17 +74,17 @@ grid1 {
     grid-gap: 20px;
 }
 
-.grid > div:nth-child(n + 4) {
+.grid1 > div:nth-child(n + 4) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     align-items: center;
 }
 
-.grid > div.anuncio {
+.grid1 > div.anuncio {
     grid-column: 1;
     grid-row: 2 / 5;
-    border-bottom: 10px solid tomato;
+    border-top: 10px solid tomato;
     display: block;
 }
 
@@ -92,10 +92,10 @@ grid1 {
     .grid1 {
         grid-template-columns: repeat(2, 1fr);
     }
-    .grid > div:nth-child(n + 4) {
+    .grid1 > div:nth-child(n + 4) {
         display: block;
     }
-    .grid > div.anuncio {
+    .grid1 > div.anuncio {
         grid-column: auto;
         grid-row: auto;
         order: -1;
