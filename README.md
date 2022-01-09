@@ -3,9 +3,10 @@
 <img src="https://img.shields.io/static/v1?label=Status&message=complete&color=00800&style=for-the-badge&logo=ghost"/>
 
 ### Application: 
-![image](https://user-images.githubusercontent.com/74930052/148272318-43b1584a-5a65-40a1-b1fa-54eb46598c80.png)
+![image](https://user-images.githubusercontent.com/74930052/148692146-04a2f51d-8b78-4955-93ff-064cde001584.png)
 
-<p align="center">Este projeto faz parte da série de vídeos da Girl Coding <a href="https://www.youtube.com/watch?v=Q68vbJplf7I" target='_blank'> Aqui </a> </p>
+
+<p align="center">Este projeto faz parte da série de vídeos da Origamid <a href="https://www.youtube.com/watch?v=x-4z_u8LcGc" target='_blank'> Aqui </a> </p>
 
 <p align="center">
  <a href="#Objective">Objetivo</a> •
@@ -20,8 +21,8 @@ Nesse repositório guardo todas as anotações, materiais e projetos que foram r
 
 ### Features
 
-- [x] Página de Cadastro com HTML/CSS
-- [x] Responsividade no CSS
+- [x] Grid
+- [x] Flexbox
 
 ### Tecnologia
 
